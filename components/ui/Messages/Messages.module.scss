@@ -1,0 +1,12 @@
+.messages {
+	&::-webkit-scrollbar {
+		width: 2px;
+	}
+	&::-webkit-scrollbar-track {
+		background: transparent;
+	}
+	&::-webkit-scrollbar-thumb {
+		background: color-mix(in srgb, var(--600), transparent 50%);
+		border-radius: 50%;
+	}
+}

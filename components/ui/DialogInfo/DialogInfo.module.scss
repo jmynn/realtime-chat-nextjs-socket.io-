@@ -1,0 +1,12 @@
+.image {
+	& > img {
+		width: 100%!important;
+		object-fit: contain;
+	}
+}
+.name {
+	max-width: 500px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}

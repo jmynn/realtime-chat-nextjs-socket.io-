@@ -1,0 +1,9 @@
+.info{
+    & > img {
+        width: 70%!important;
+        height: auto!important;
+        object-fit: contain;
+        border-radius: 6px;
+        margin: 0 auto;
+    }
+}

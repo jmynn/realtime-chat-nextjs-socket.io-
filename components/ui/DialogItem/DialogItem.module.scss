@@ -1,0 +1,12 @@
+.imageBox {
+	& > img {
+		width: 100%;
+		object-fit: contain;
+	}
+}
+.info > div {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: calc(48vw - 3rem);
+}
